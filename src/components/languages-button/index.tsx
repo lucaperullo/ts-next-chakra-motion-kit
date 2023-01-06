@@ -1,4 +1,4 @@
-import { availableLanguages } from '@/internationalization/i18n';
+
 import {
   Box,
   Button,
@@ -15,10 +15,10 @@ const LanguagesButton = () => {
   return (
     <Box>
       <Menu>
-        <MenuButton as={Button} colorScheme='brand'>
+        {/* <MenuButton as={Button} colorScheme='brand'>
           {i18n.language.toUpperCase()}
-        </MenuButton>
-        <MenuList minW='fit-content'>
+        </MenuButton> */}
+        {/* <MenuList minW='fit-content'>
           {availableLanguages.map((lang) => (
             <MenuItem
               key={lang}
@@ -28,7 +28,7 @@ const LanguagesButton = () => {
               {lang.toUpperCase()}
             </MenuItem>
           ))}
-        </MenuList>
+        </MenuList> */}
       </Menu>
     </Box>
   );

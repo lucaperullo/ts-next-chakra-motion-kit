@@ -36,7 +36,7 @@ const PageLayout = ({ title, description, children }: PageProps) => {
   return (
     <>
       <NextSeo
-        title={title + ' | Starter Kit'}
+        title={title + ' | BlogAI'}
         description={description}
         twitter={{
           cardType: 'summary_large_image',
